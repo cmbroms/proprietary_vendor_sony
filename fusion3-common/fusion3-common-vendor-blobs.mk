@@ -1,4 +1,4 @@
-# Copyright (C) 2011-2013 The CyanogenMod Project
+# Copyright (C) 2013 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,6 +16,8 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/bin/system_monitor:system/bin/system_monitor \
+    vendor/sony/fusion3-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+    vendor/sony/fusion3-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
@@ -39,6 +41,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/libsysmon.so:system/lib/libsysmon.so \
     vendor/sony/fusion3-common/proprietary/lib/libsysmon_idd.so:system/lib/libsysmon_idd.so \
     vendor/sony/fusion3-common/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
+    vendor/sony/fusion3-common/proprietary/lib/libquipc_os_api.so:system/lib/libquipc_os_api.so \
+    vendor/sony/fusion3-common/proprietary/lib/libquipc_ulp_adapter.so:system/lib/libquipc_ulp_adapter.so \
+    vendor/sony/fusion3-common/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
+    vendor/sony/fusion3-common/proprietary/lib/libulp2.so:system/lib/libulp2.so \
+    vendor/sony/fusion3-common/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
+    vendor/sony/fusion3-common/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_batt_therm.so:system/lib/sysmon/sysmon_batt_therm.so \
     vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_bl_therm.so:system/lib/sysmon/sysmon_bl_therm.so \
     vendor/sony/fusion3-common/proprietary/lib/sysmon/sysmon_charge_current_limit_level.so:system/lib/sysmon/sysmon_charge_current_limit_level.so \
