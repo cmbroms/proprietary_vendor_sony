@@ -29,6 +29,6 @@ PRODUCT_COPY_FILES := \
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/sony/fusion3-common/overlay
 
-PRODUCT_PACKAGES += libtime_genoff
+#PRODUCT_PACKAGES += libtime_genoff
 
 $(call inherit-product, vendor/sony/fusion3-common/fusion3-common-vendor-blobs.mk)
