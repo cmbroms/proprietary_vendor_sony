@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),v500)
+ifeq ($(TARGET_DEVICE),fusion3-common)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
